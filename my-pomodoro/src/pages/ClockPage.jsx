@@ -6,7 +6,7 @@ function ClockPage() {
   const [task, setTask] = useState("");
   const startTimeRef = useRef(0);
   const intervalRef = useRef(null);
-  const targetTime = 0.1 * 60 * 1000;
+  const targetTime = 20 * 60 * 1000;
 
   useEffect(() => {
     const updateTimer = () => {
